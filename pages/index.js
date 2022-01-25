@@ -20,7 +20,7 @@ export default function Page() {
   <div>
   <div className="overflow-hidden flex">
 
-    <div className="w-1/12 h-screen justify-center flex-col items-center hidden z-50 lg:flex">
+    <div className="w-1/12 h-screen justify-center flex-col items-center hidden lg:flex">
       <div className="h-1/3 flex flex-col justify-between absolute left-9 top-60">
           <h2 className=' skew-x-12'><Link href="https://www.facebook.com/jekaterina.jermakova.52"><a>FB</a></Link></h2>
           <h2 className=' skew-x-12'><Link href="https://www.instagram.com/"><a>IG</a></Link></h2>
