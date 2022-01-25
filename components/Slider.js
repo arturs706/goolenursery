@@ -34,7 +34,7 @@ return (
     
     <div className="App ">
         <div className="h-screen flex flex-col justify-center" ref={addToRefs}>
-            <div className="text-6xl mb-12 flex justify-center">JAUNUMS</div>
+            <div className="text-6xl mb-12 flex justify-center">OUR BLOG</div>
             <div className="px-5 ">
             <div className="flex">
             <div className=" w-full flex lg:justify-end lg:pr-4 justify-between">
