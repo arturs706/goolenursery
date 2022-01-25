@@ -67,7 +67,7 @@ const Hamburger = () => {
 
 
     return (
-        <div className="fixed top-7 left-5 pointer z-10 ">
+        <div className="fixed top-7 left-5 pointer z-50">
         <div className="fixed z-50 bg-black rounded-full p-2">
             <button className="bg-transparent border-none cursor-pointer outline-0 no-underline"
                 onClick={() => setIsOpen(!isOpen)}>
@@ -81,8 +81,8 @@ const Hamburger = () => {
         {
             isOpen
             ? <section className=" main-section fixed left-0 top-0 w-full h-screen overflow-hidden backdrop-blur-2xl ">
-                <div className="flex items-center justify-center h-full px-32 py-42 overflow-hidden">
-                <div className="h-full w-full absolute left-0 top-0 bg-gradient-to-b from-orange-50	... overflow-hidden"></div>
+                <div className="flex items-center justify-center h-full px-32 py-42 ">
+                <div className="h-full w-full absolute left-0 top-0 bg-gradient-to-b from-orange-50	... z-10"></div>
                     <svg className="h-full w-full absolute left-0 top-0 " viewBox="0 10 1000 1000" preserveAspectRatio="none">
                     <path className="h-full w-full bluee fill-orange-50" d="M0,1005S175,995,500,995s500,5,500,5V0H0Z"></path>
                     </svg>
